@@ -4,7 +4,7 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'RJSmartDoorSDK' do
-    pod 'Bugtags'
+    #pod 'Bugtags'
     pod 'ENSwiftSideMenu', '~> 0.1.1'
     pod 'Alamofire', '~> 3.0'
     pod 'SwiftyJSON', '2.4.0'
