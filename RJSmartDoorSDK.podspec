@@ -1,10 +1,11 @@
-# 1
+Pod::Spec.new do |s|
+
 s.platform = :ios
 s.ios.deployment_target = '8.0'
 s.name = "RJSmartDoorSDK"
 s.summary = "RJSmartDoorSDK change live."
 s.requires_arc = true
-# 2
+
 s.version = "0.1.0"
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -17,7 +18,7 @@ s.homepage = "http://www.ruijiating.com"
 # For example,
 # s.homepage = "https://github.com/JRG-Developer/RWPickFlavor"
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "http://git.corelines.cn/access-control-system/RJSmartDoorSDK.git", :tag => "#{s.version}"}
+s.source = { :git => "https://github.com/EaseLi/RJSmartDoorSDK.git", :tag => "#{s.version}"}
 # For example,
 # s.source = { :git => "https://github.com/JRG-Developer/RWPickFlavor.git", :tag => "#{s.version}"}
 # 7
@@ -39,4 +40,5 @@ s.dependency 'IQKeyboardManagerSwift', '4.0.5'
 s.source_files = "RJSmartDoorSDK/**/*.{swift}"
 # 9
 s.resources = "RJSmartDoorSDK/**/*.{png,jpeg,jpg,storyboard,xib}"
+
 end
