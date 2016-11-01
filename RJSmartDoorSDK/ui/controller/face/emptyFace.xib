@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default-face" translatesAutoresizingMaskIntoConstraints="NO" id="MYN-I7-Fjd">
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="MYN-I7-Fjd" secondAttribute="height" multiplier="1:1" id="YLv-eR-2IR"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上传新头像" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCl-9o-9Df">
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.22352941176470589" green="0.53333333333333333" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fCl-9o-9Df" firstAttribute="top" secondItem="MYN-I7-Fjd" secondAttribute="bottom" constant="20" id="1Mj-qe-HlA"/>
+                <constraint firstItem="MYN-I7-Fjd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="65" id="Jeo-u6-FTe"/>
+                <constraint firstItem="MYN-I7-Fjd" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="nPN-kJ-aNZ"/>
+                <constraint firstItem="MYN-I7-Fjd" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="130:320" id="qbh-81-O76"/>
+                <constraint firstItem="fCl-9o-9Df" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="wuE-33-uvo"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="default-face" width="134" height="134"/>
+    </resources>
+</document>

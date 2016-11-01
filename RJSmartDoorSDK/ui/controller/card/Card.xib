@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Card" customModule="睿视" customModuleProvider="target">
+            <connections>
+                <outlet property="community" destination="zdX-k2-gZu" id="Gy8-Sg-J5t"/>
+                <outlet property="doorName" destination="Nat-3n-3Fi" id="3sz-qh-0Kd"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="311" height="196"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle" translatesAutoresizingMaskIntoConstraints="NO" id="aPf-Nd-6Zr"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="东门" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nat-3n-3Fi">
+                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="轻触开门" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5sN-ni-VlH">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="睿家小区虚拟门卡" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zdX-k2-gZu">
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.22352941179999999" green="0.53333333329999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="aPf-Nd-6Zr" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="36q-QB-h8Y"/>
+                <constraint firstItem="5sN-ni-VlH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="24" id="Bob-KS-lgd"/>
+                <constraint firstAttribute="trailing" secondItem="aPf-Nd-6Zr" secondAttribute="trailing" constant="-85" id="CUJ-M8-E4c"/>
+                <constraint firstAttribute="bottom" secondItem="5sN-ni-VlH" secondAttribute="bottom" constant="25" id="U8B-Ad-ulC"/>
+                <constraint firstItem="zdX-k2-gZu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="24" id="jmI-8i-Cca"/>
+                <constraint firstItem="Nat-3n-3Fi" firstAttribute="top" secondItem="zdX-k2-gZu" secondAttribute="bottom" constant="8" id="pa6-FI-1Bz"/>
+                <constraint firstItem="zdX-k2-gZu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="23" id="vFF-tn-uOk"/>
+                <constraint firstItem="Nat-3n-3Fi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="24" id="wBg-OQ-XgQ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="499.5" y="209"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="circle" width="228" height="228"/>
+    </resources>
+</document>
