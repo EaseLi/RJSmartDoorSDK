@@ -1,10 +1,11 @@
-# 1
+Pod::Spec.new do |s|
+
 s.platform = :ios
 s.ios.deployment_target = '8.0'
 s.name = "RJSmartDoorSDK"
 s.summary = "RJSmartDoorSDK change live."
 s.requires_arc = true
-# 2
+s.pod_target_xcconfig = { 'SWIFT_VERSION' => '2.3' }
 s.version = "0.1.0"
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -39,4 +40,5 @@ s.dependency 'IQKeyboardManagerSwift', '4.0.5'
 s.source_files = "RJSmartDoorSDK/**/*.{swift}"
 # 9
 s.resources = "RJSmartDoorSDK/**/*.{png,jpeg,jpg,storyboard,xib}"
+
 end

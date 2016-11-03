@@ -8,6 +8,7 @@
 
 import UIKit
 import SDWebImage
+//import NIMSDK
 
 class Ring: BaseView,NIMNetCallManagerDelegate {
     

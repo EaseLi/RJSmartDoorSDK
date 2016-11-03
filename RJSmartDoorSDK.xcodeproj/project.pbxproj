@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43051ACF827F8AF5AFDBA174 /* Pods_RJSmartDoorSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56133024166EF091DB2D82C /* Pods_RJSmartDoorSDK.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		B70320D01DC6E5EF001639A7 /* RJSmartDoorSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = B70320CE1DC6E5EF001639A7 /* RJSmartDoorSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B703216F1DC72CBB001639A7 /* addMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70320D91DC72CBB001639A7 /* addMember.swift */; };
 		B70321701DC72CBB001639A7 /* authority.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70320DA1DC72CBB001639A7 /* authority.storyboard */; };
@@ -132,7 +133,7 @@
 		B70321E81DC72CBB001639A7 /* SplitUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B703216C1DC72CBB001639A7 /* SplitUtils.swift */; };
 		B70321E91DC72CBB001639A7 /* TransactionNoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B703216D1DC72CBB001639A7 /* TransactionNoUtils.swift */; };
 		B70321EA1DC72CBB001639A7 /* VCIdentify.swift in Sources */ = {isa = PBXBuildFile; fileRef = B703216E1DC72CBB001639A7 /* VCIdentify.swift */; };
-		B70321EE1DC72CE4001639A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70321EB1DC72CE4001639A7 /* Main.storyboard */; };
+		B70321EE1DC72CE4001639A7 /* RJMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70321EB1DC72CE4001639A7 /* RJMain.storyboard */; };
 		B70321EF1DC72CE4001639A7 /* MessageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70321EC1DC72CE4001639A7 /* MessageInfo.swift */; };
 		B70321F01DC72CE4001639A7 /* AppContant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70321ED1DC72CE4001639A7 /* AppContant.swift */; };
 		B76882FD1DC88CA90064FB92 /* ad1.png in Resources */ = {isa = PBXBuildFile; fileRef = B76882771DC88CA90064FB92 /* ad1.png */; };
@@ -199,13 +200,88 @@
 		B768833A1DC88CAA0064FB92 /* user-name.png in Resources */ = {isa = PBXBuildFile; fileRef = B76882F81DC88CA90064FB92 /* user-name.png */; };
 		B768833B1DC88CAA0064FB92 /* user-photo.png in Resources */ = {isa = PBXBuildFile; fileRef = B76882FA1DC88CA90064FB92 /* user-photo.png */; };
 		B768833C1DC88CAA0064FB92 /* user-setpasswd.png in Resources */ = {isa = PBXBuildFile; fileRef = B76882FC1DC88CA90064FB92 /* user-setpasswd.png */; };
-		B77D58041DC846050080E98B /* NIMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77D58021DC845D70080E98B /* NIMSDK.framework */; };
-		B82C3413DF95FD0C2E52B2B2 /* Pods_RJSmartDoorSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C4E98E6A40F9D364491AF8E /* Pods_RJSmartDoorSDK.framework */; };
+		B76884471DC8F6C20064FB92 /* RJNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76884461DC8F6C20064FB92 /* RJNavigationViewController.swift */; };
+		B7FF27C91DCAA31B0026E776 /* NIMChatroom.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27811DCAA31B0026E776 /* NIMChatroom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27CA1DCAA31B0026E776 /* NIMChatroomEnterRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27821DCAA31B0026E776 /* NIMChatroomEnterRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27CB1DCAA31B0026E776 /* NIMChatroomMember.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27831DCAA31B0026E776 /* NIMChatroomMember.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27CC1DCAA31B0026E776 /* NIMChatroomMemberRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27841DCAA31B0026E776 /* NIMChatroomMemberRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27CD1DCAA31B0026E776 /* NIMMessageChatroomExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27851DCAA31B0026E776 /* NIMMessageChatroomExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27CE1DCAA31B0026E776 /* NIMAudioObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27871DCAA31B0026E776 /* NIMAudioObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27CF1DCAA31B0026E776 /* NIMCustomObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27881DCAA31B0026E776 /* NIMCustomObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27D01DCAA31B0026E776 /* NIMFileObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27891DCAA31B0026E776 /* NIMFileObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27D11DCAA31B0026E776 /* NIMImageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF278A1DCAA31B0026E776 /* NIMImageObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27D21DCAA31B0026E776 /* NIMLocationObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF278B1DCAA31B0026E776 /* NIMLocationObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27D31DCAA31B0026E776 /* NIMNotificationObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF278C1DCAA31B0026E776 /* NIMNotificationObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27D41DCAA31B0026E776 /* NIMTipObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF278D1DCAA31B0026E776 /* NIMTipObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27D51DCAA31B0026E776 /* NIMVideoObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF278E1DCAA31B0026E776 /* NIMVideoObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27D61DCAA31B0026E776 /* NIMChatroomNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27901DCAA31B0026E776 /* NIMChatroomNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27D71DCAA31B0026E776 /* NIMNetCallNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27911DCAA31B0026E776 /* NIMNetCallNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27D81DCAA31B0026E776 /* NIMNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27921DCAA31B0026E776 /* NIMNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27D91DCAA31B0026E776 /* NIMTeamNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27931DCAA31B0026E776 /* NIMTeamNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27DA1DCAA31B0026E776 /* NIMUnsupportedNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27941DCAA31B0026E776 /* NIMUnsupportedNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27DB1DCAA31B0026E776 /* NIMCustomSystemNotificationSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27951DCAA31B0026E776 /* NIMCustomSystemNotificationSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27DC1DCAA31B0026E776 /* NIMGlobalDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27961DCAA31B0026E776 /* NIMGlobalDefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27DD1DCAA31B0026E776 /* NIMLoginClient.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27971DCAA31B0026E776 /* NIMLoginClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27DE1DCAA31B0026E776 /* NIMMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27981DCAA31B0026E776 /* NIMMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27DF1DCAA31B0026E776 /* NIMMessageReceipt.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27991DCAA31B0026E776 /* NIMMessageReceipt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27E01DCAA31B0026E776 /* NIMMessageSearchOption.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF279A1DCAA31B0026E776 /* NIMMessageSearchOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27E11DCAA31B0026E776 /* NIMMessageSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF279B1DCAA31B0026E776 /* NIMMessageSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27E21DCAA31B0026E776 /* NIMPushNotificationSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF279C1DCAA31B0026E776 /* NIMPushNotificationSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27E31DCAA31B0026E776 /* NIMRecentSession.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF279D1DCAA31B0026E776 /* NIMRecentSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27E41DCAA31B0026E776 /* NIMSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF279E1DCAA31B0026E776 /* NIMSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27E51DCAA31B0026E776 /* NIMSDKConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF279F1DCAA31B0026E776 /* NIMSDKConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27E61DCAA31B0026E776 /* NIMSDKHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27A01DCAA31B0026E776 /* NIMSDKHeaders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27E71DCAA31B0026E776 /* NIMSession.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27A11DCAA31B0026E776 /* NIMSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27E81DCAA31B0026E776 /* NIMSystemNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27A21DCAA31B0026E776 /* NIMSystemNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27E91DCAA31B0026E776 /* NIMUser.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27A31DCAA31B0026E776 /* NIMUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27EA1DCAA31B0026E776 /* NIMApnsManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27A51DCAA31B0026E776 /* NIMApnsManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27EB1DCAA31B0026E776 /* NIMChatManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27A61DCAA31B0026E776 /* NIMChatManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27EC1DCAA31B0026E776 /* NIMChatroomManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27A71DCAA31B0026E776 /* NIMChatroomManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27ED1DCAA31B0026E776 /* NIMConversationManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27A81DCAA31B0026E776 /* NIMConversationManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27EE1DCAA31B0026E776 /* NIMLoginManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27A91DCAA31B0026E776 /* NIMLoginManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27EF1DCAA31B0026E776 /* NIMMediaManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27AA1DCAA31B0026E776 /* NIMMediaManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27F01DCAA31B0026E776 /* NIMMessageObjectProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27AB1DCAA31B0026E776 /* NIMMessageObjectProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27F11DCAA31B0026E776 /* NIMResourceManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27AC1DCAA31B0026E776 /* NIMResourceManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27F21DCAA31B0026E776 /* NIMSystemNotificationManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27AD1DCAA31B0026E776 /* NIMSystemNotificationManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27F31DCAA31B0026E776 /* NIMTeamManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27AE1DCAA31B0026E776 /* NIMTeamManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27F41DCAA31B0026E776 /* NIMUserManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27AF1DCAA31B0026E776 /* NIMUserManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27F51DCAA31B0026E776 /* NIMCreateTeamOption.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27B11DCAA31B0026E776 /* NIMCreateTeamOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27F61DCAA31B0026E776 /* NIMTeam.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27B21DCAA31B0026E776 /* NIMTeam.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27F71DCAA31B0026E776 /* NIMTeamDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27B31DCAA31B0026E776 /* NIMTeamDefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27F81DCAA31B0026E776 /* NIMTeamMember.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27B41DCAA31B0026E776 /* NIMTeamMember.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27F91DCAA31B0026E776 /* NIMNetCallDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27B61DCAA31B0026E776 /* NIMNetCallDefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27FA1DCAA31B0026E776 /* NIMNetCallManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27B71DCAA31B0026E776 /* NIMNetCallManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27FB1DCAA31B0026E776 /* NIMNetCallMeeting.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27B81DCAA31B0026E776 /* NIMNetCallMeeting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27FC1DCAA31B0026E776 /* NIMNetCallOption.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27B91DCAA31B0026E776 /* NIMNetCallOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27FD1DCAA31B0026E776 /* NIMNetCallRecordingInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27BA1DCAA31B0026E776 /* NIMNetCallRecordingInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27FE1DCAA31B0026E776 /* NIMRTSManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27BB1DCAA31B0026E776 /* NIMRTSManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF27FF1DCAA31B0026E776 /* NIMRTSOption.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27BC1DCAA31B0026E776 /* NIMRTSOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF28001DCAA31B0026E776 /* NIMRTSRecordingInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FF27BD1DCAA31B0026E776 /* NIMRTSRecordingInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FF28011DCAA31B0026E776 /* libNIMSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FF27BE1DCAA31B0026E776 /* libNIMSDK.a */; };
+		B7FF28021DCAA31B0026E776 /* libaacplus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FF27C01DCAA31B0026E776 /* libaacplus.a */; };
+		B7FF28031DCAA31B0026E776 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FF27C11DCAA31B0026E776 /* libcrypto.a */; };
+		B7FF28041DCAA31B0026E776 /* libevent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FF27C21DCAA31B0026E776 /* libevent.a */; };
+		B7FF28051DCAA31B0026E776 /* libnio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FF27C31DCAA31B0026E776 /* libnio.a */; };
+		B7FF28061DCAA31B0026E776 /* libnts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FF27C41DCAA31B0026E776 /* libnts.a */; };
+		B7FF28071DCAA31B0026E776 /* libnvs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FF27C51DCAA31B0026E776 /* libnvs.a */; };
+		B7FF28081DCAA31B0026E776 /* libopenh264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FF27C61DCAA31B0026E776 /* libopenh264.a */; };
+		B7FF28091DCAA31B0026E776 /* libopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FF27C71DCAA31B0026E776 /* libopus.a */; };
+		B7FF280A1DCAA31B0026E776 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FF27C81DCAA31B0026E776 /* libssl.a */; };
+		B7FF280C1DCAA4AD0026E776 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FF280B1DCAA4AD0026E776 /* MobileCoreServices.framework */; };
+		B7FF280E1DCAA4BD0026E776 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FF280D1DCAA4BD0026E776 /* SystemConfiguration.framework */; };
+		B7FF28101DCAA4C60026E776 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FF280F1DCAA4C60026E776 /* AVFoundation.framework */; };
+		B7FF28121DCAA4D70026E776 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FF28111DCAA4D70026E776 /* CoreTelephony.framework */; };
+		B7FF28141DCAA4DE0026E776 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FF28131DCAA4DE0026E776 /* CoreMedia.framework */; };
+		B7FF28161DCAA4F30026E776 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FF28151DCAA4F30026E776 /* AudioToolbox.framework */; };
+		B7FF28181DCAA4F90026E776 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FF28171DCAA4F90026E776 /* VideoToolbox.framework */; };
+		B7FF281A1DCAA5110026E776 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FF28191DCAA5110026E776 /* libstdc++.6.0.9.tbd */; };
+		B7FF281C1DCAA5240026E776 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FF281B1DCAA5240026E776 /* libsqlite3.0.tbd */; };
+		B7FF281E1DCAA5300026E776 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FF281D1DCAA5300026E776 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7C4E98E6A40F9D364491AF8E /* Pods_RJSmartDoorSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJSmartDoorSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		81BE290250398497A4A826EC /* Pods-RJSmartDoorSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJSmartDoorSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RJSmartDoorSDK/Pods-RJSmartDoorSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		8F2D147F6D07A0D8DC8C5E2C /* Pods-RJSmartDoorSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJSmartDoorSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-RJSmartDoorSDK/Pods-RJSmartDoorSDK.release.xcconfig"; sourceTree = "<group>"; };
+		A00609BC25835199596D450A /* Pods-RJSmartDoorSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJSmartDoorSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RJSmartDoorSDK/Pods-RJSmartDoorSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		B70320CB1DC6E5EF001639A7 /* RJSmartDoorSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RJSmartDoorSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B70320CE1DC6E5EF001639A7 /* RJSmartDoorSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJSmartDoorSDK.h; sourceTree = "<group>"; };
 		B70320CF1DC6E5EF001639A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -333,7 +409,7 @@
 		B703216C1DC72CBB001639A7 /* SplitUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitUtils.swift; sourceTree = "<group>"; };
 		B703216D1DC72CBB001639A7 /* TransactionNoUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionNoUtils.swift; sourceTree = "<group>"; };
 		B703216E1DC72CBB001639A7 /* VCIdentify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCIdentify.swift; sourceTree = "<group>"; };
-		B70321EB1DC72CE4001639A7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B70321EB1DC72CE4001639A7 /* RJMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RJMain.storyboard; sourceTree = "<group>"; };
 		B70321EC1DC72CE4001639A7 /* MessageInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageInfo.swift; sourceTree = "<group>"; };
 		B70321ED1DC72CE4001639A7 /* AppContant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppContant.swift; sourceTree = "<group>"; };
 		B76882771DC88CA90064FB92 /* ad1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ad1.png; sourceTree = "<group>"; };
@@ -400,8 +476,105 @@
 		B76882F81DC88CA90064FB92 /* user-name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-name.png"; sourceTree = "<group>"; };
 		B76882FA1DC88CA90064FB92 /* user-photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-photo.png"; sourceTree = "<group>"; };
 		B76882FC1DC88CA90064FB92 /* user-setpasswd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-setpasswd.png"; sourceTree = "<group>"; };
-		B77D58021DC845D70080E98B /* NIMSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NIMSDK.framework; sourceTree = "<group>"; };
-		F66DA6209622B4D0D529CC94 /* Pods-RJSmartDoorSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJSmartDoorSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-RJSmartDoorSDK/Pods-RJSmartDoorSDK.release.xcconfig"; sourceTree = "<group>"; };
+		B76884461DC8F6C20064FB92 /* RJNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RJNavigationViewController.swift; sourceTree = "<group>"; };
+		B7FF27601DCA9F430026E776 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../../Library/Developer/Xcode/DerivedData/RJSmartDoorSDK-doaykjlpxzqnfrcqyyolqtjqpkil/Build/Products/Debug-iphoneos/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
+		B7FF27611DCA9F430026E776 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/RJSmartDoorSDK-doaykjlpxzqnfrcqyyolqtjqpkil/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		B7FF27621DCA9F430026E776 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = "../../../Library/Developer/Xcode/DerivedData/RJSmartDoorSDK-doaykjlpxzqnfrcqyyolqtjqpkil/Build/Products/Debug-iphoneos/CryptoSwift/CryptoSwift.framework"; sourceTree = "<group>"; };
+		B7FF27631DCA9F430026E776 /* ENSwiftSideMenu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ENSwiftSideMenu.framework; path = "../../../Library/Developer/Xcode/DerivedData/RJSmartDoorSDK-doaykjlpxzqnfrcqyyolqtjqpkil/Build/Products/Debug-iphoneos/ENSwiftSideMenu/ENSwiftSideMenu.framework"; sourceTree = "<group>"; };
+		B7FF27641DCA9F430026E776 /* HappyDNS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HappyDNS.framework; path = "../../../Library/Developer/Xcode/DerivedData/RJSmartDoorSDK-doaykjlpxzqnfrcqyyolqtjqpkil/Build/Products/Debug-iphoneos/HappyDNS/HappyDNS.framework"; sourceTree = "<group>"; };
+		B7FF27651DCA9F430026E776 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IQKeyboardManagerSwift.framework; path = "../../../Library/Developer/Xcode/DerivedData/RJSmartDoorSDK-doaykjlpxzqnfrcqyyolqtjqpkil/Build/Products/Debug-iphoneos/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework"; sourceTree = "<group>"; };
+		B7FF27661DCA9F430026E776 /* JDStatusBarNotification.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JDStatusBarNotification.framework; path = "../../../Library/Developer/Xcode/DerivedData/RJSmartDoorSDK-doaykjlpxzqnfrcqyyolqtjqpkil/Build/Products/Debug-iphoneos/JDStatusBarNotification/JDStatusBarNotification.framework"; sourceTree = "<group>"; };
+		B7FF27671DCA9F430026E776 /* MJRefresh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MJRefresh.framework; path = "../../../Library/Developer/Xcode/DerivedData/RJSmartDoorSDK-doaykjlpxzqnfrcqyyolqtjqpkil/Build/Products/Debug-iphoneos/MJRefresh/MJRefresh.framework"; sourceTree = "<group>"; };
+		B7FF27681DCA9F430026E776 /* Qiniu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Qiniu.framework; path = "../../../Library/Developer/Xcode/DerivedData/RJSmartDoorSDK-doaykjlpxzqnfrcqyyolqtjqpkil/Build/Products/Debug-iphoneos/Qiniu/Qiniu.framework"; sourceTree = "<group>"; };
+		B7FF27691DCA9F430026E776 /* ReachabilitySwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReachabilitySwift.framework; path = "../../../Library/Developer/Xcode/DerivedData/RJSmartDoorSDK-doaykjlpxzqnfrcqyyolqtjqpkil/Build/Products/Debug-iphoneos/ReachabilitySwift/ReachabilitySwift.framework"; sourceTree = "<group>"; };
+		B7FF276A1DCA9F430026E776 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "../../../Library/Developer/Xcode/DerivedData/RJSmartDoorSDK-doaykjlpxzqnfrcqyyolqtjqpkil/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework"; sourceTree = "<group>"; };
+		B7FF276B1DCA9F430026E776 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = "../../../Library/Developer/Xcode/DerivedData/RJSmartDoorSDK-doaykjlpxzqnfrcqyyolqtjqpkil/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework"; sourceTree = "<group>"; };
+		B7FF276C1DCA9F430026E776 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyBeaver.framework; path = "../../../Library/Developer/Xcode/DerivedData/RJSmartDoorSDK-doaykjlpxzqnfrcqyyolqtjqpkil/Build/Products/Debug-iphoneos/SwiftyBeaver/SwiftyBeaver.framework"; sourceTree = "<group>"; };
+		B7FF276D1DCA9F430026E776 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/RJSmartDoorSDK-doaykjlpxzqnfrcqyyolqtjqpkil/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		B7FF277C1DCA9F950026E776 /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
+		B7FF27811DCAA31B0026E776 /* NIMChatroom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMChatroom.h; sourceTree = "<group>"; };
+		B7FF27821DCAA31B0026E776 /* NIMChatroomEnterRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMChatroomEnterRequest.h; sourceTree = "<group>"; };
+		B7FF27831DCAA31B0026E776 /* NIMChatroomMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMChatroomMember.h; sourceTree = "<group>"; };
+		B7FF27841DCAA31B0026E776 /* NIMChatroomMemberRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMChatroomMemberRequest.h; sourceTree = "<group>"; };
+		B7FF27851DCAA31B0026E776 /* NIMMessageChatroomExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMMessageChatroomExtension.h; sourceTree = "<group>"; };
+		B7FF27871DCAA31B0026E776 /* NIMAudioObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMAudioObject.h; sourceTree = "<group>"; };
+		B7FF27881DCAA31B0026E776 /* NIMCustomObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMCustomObject.h; sourceTree = "<group>"; };
+		B7FF27891DCAA31B0026E776 /* NIMFileObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMFileObject.h; sourceTree = "<group>"; };
+		B7FF278A1DCAA31B0026E776 /* NIMImageObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMImageObject.h; sourceTree = "<group>"; };
+		B7FF278B1DCAA31B0026E776 /* NIMLocationObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMLocationObject.h; sourceTree = "<group>"; };
+		B7FF278C1DCAA31B0026E776 /* NIMNotificationObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMNotificationObject.h; sourceTree = "<group>"; };
+		B7FF278D1DCAA31B0026E776 /* NIMTipObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMTipObject.h; sourceTree = "<group>"; };
+		B7FF278E1DCAA31B0026E776 /* NIMVideoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMVideoObject.h; sourceTree = "<group>"; };
+		B7FF27901DCAA31B0026E776 /* NIMChatroomNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMChatroomNotificationContent.h; sourceTree = "<group>"; };
+		B7FF27911DCAA31B0026E776 /* NIMNetCallNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMNetCallNotificationContent.h; sourceTree = "<group>"; };
+		B7FF27921DCAA31B0026E776 /* NIMNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMNotificationContent.h; sourceTree = "<group>"; };
+		B7FF27931DCAA31B0026E776 /* NIMTeamNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMTeamNotificationContent.h; sourceTree = "<group>"; };
+		B7FF27941DCAA31B0026E776 /* NIMUnsupportedNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMUnsupportedNotificationContent.h; sourceTree = "<group>"; };
+		B7FF27951DCAA31B0026E776 /* NIMCustomSystemNotificationSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMCustomSystemNotificationSetting.h; sourceTree = "<group>"; };
+		B7FF27961DCAA31B0026E776 /* NIMGlobalDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMGlobalDefs.h; sourceTree = "<group>"; };
+		B7FF27971DCAA31B0026E776 /* NIMLoginClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMLoginClient.h; sourceTree = "<group>"; };
+		B7FF27981DCAA31B0026E776 /* NIMMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMMessage.h; sourceTree = "<group>"; };
+		B7FF27991DCAA31B0026E776 /* NIMMessageReceipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMMessageReceipt.h; sourceTree = "<group>"; };
+		B7FF279A1DCAA31B0026E776 /* NIMMessageSearchOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMMessageSearchOption.h; sourceTree = "<group>"; };
+		B7FF279B1DCAA31B0026E776 /* NIMMessageSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMMessageSetting.h; sourceTree = "<group>"; };
+		B7FF279C1DCAA31B0026E776 /* NIMPushNotificationSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMPushNotificationSetting.h; sourceTree = "<group>"; };
+		B7FF279D1DCAA31B0026E776 /* NIMRecentSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMRecentSession.h; sourceTree = "<group>"; };
+		B7FF279E1DCAA31B0026E776 /* NIMSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSDK.h; sourceTree = "<group>"; };
+		B7FF279F1DCAA31B0026E776 /* NIMSDKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSDKConfig.h; sourceTree = "<group>"; };
+		B7FF27A01DCAA31B0026E776 /* NIMSDKHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSDKHeaders.h; sourceTree = "<group>"; };
+		B7FF27A11DCAA31B0026E776 /* NIMSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSession.h; sourceTree = "<group>"; };
+		B7FF27A21DCAA31B0026E776 /* NIMSystemNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSystemNotification.h; sourceTree = "<group>"; };
+		B7FF27A31DCAA31B0026E776 /* NIMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMUser.h; sourceTree = "<group>"; };
+		B7FF27A51DCAA31B0026E776 /* NIMApnsManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMApnsManagerProtocol.h; sourceTree = "<group>"; };
+		B7FF27A61DCAA31B0026E776 /* NIMChatManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMChatManagerProtocol.h; sourceTree = "<group>"; };
+		B7FF27A71DCAA31B0026E776 /* NIMChatroomManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMChatroomManagerProtocol.h; sourceTree = "<group>"; };
+		B7FF27A81DCAA31B0026E776 /* NIMConversationManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMConversationManagerProtocol.h; sourceTree = "<group>"; };
+		B7FF27A91DCAA31B0026E776 /* NIMLoginManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMLoginManagerProtocol.h; sourceTree = "<group>"; };
+		B7FF27AA1DCAA31B0026E776 /* NIMMediaManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMMediaManagerProtocol.h; sourceTree = "<group>"; };
+		B7FF27AB1DCAA31B0026E776 /* NIMMessageObjectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMMessageObjectProtocol.h; sourceTree = "<group>"; };
+		B7FF27AC1DCAA31B0026E776 /* NIMResourceManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMResourceManagerProtocol.h; sourceTree = "<group>"; };
+		B7FF27AD1DCAA31B0026E776 /* NIMSystemNotificationManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSystemNotificationManagerProtocol.h; sourceTree = "<group>"; };
+		B7FF27AE1DCAA31B0026E776 /* NIMTeamManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMTeamManagerProtocol.h; sourceTree = "<group>"; };
+		B7FF27AF1DCAA31B0026E776 /* NIMUserManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMUserManagerProtocol.h; sourceTree = "<group>"; };
+		B7FF27B11DCAA31B0026E776 /* NIMCreateTeamOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMCreateTeamOption.h; sourceTree = "<group>"; };
+		B7FF27B21DCAA31B0026E776 /* NIMTeam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMTeam.h; sourceTree = "<group>"; };
+		B7FF27B31DCAA31B0026E776 /* NIMTeamDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMTeamDefs.h; sourceTree = "<group>"; };
+		B7FF27B41DCAA31B0026E776 /* NIMTeamMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMTeamMember.h; sourceTree = "<group>"; };
+		B7FF27B61DCAA31B0026E776 /* NIMNetCallDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMNetCallDefs.h; sourceTree = "<group>"; };
+		B7FF27B71DCAA31B0026E776 /* NIMNetCallManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMNetCallManagerProtocol.h; sourceTree = "<group>"; };
+		B7FF27B81DCAA31B0026E776 /* NIMNetCallMeeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMNetCallMeeting.h; sourceTree = "<group>"; };
+		B7FF27B91DCAA31B0026E776 /* NIMNetCallOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMNetCallOption.h; sourceTree = "<group>"; };
+		B7FF27BA1DCAA31B0026E776 /* NIMNetCallRecordingInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMNetCallRecordingInfo.h; sourceTree = "<group>"; };
+		B7FF27BB1DCAA31B0026E776 /* NIMRTSManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMRTSManagerProtocol.h; sourceTree = "<group>"; };
+		B7FF27BC1DCAA31B0026E776 /* NIMRTSOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMRTSOption.h; sourceTree = "<group>"; };
+		B7FF27BD1DCAA31B0026E776 /* NIMRTSRecordingInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMRTSRecordingInfo.h; sourceTree = "<group>"; };
+		B7FF27BE1DCAA31B0026E776 /* libNIMSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNIMSDK.a; sourceTree = "<group>"; };
+		B7FF27C01DCAA31B0026E776 /* libaacplus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libaacplus.a; sourceTree = "<group>"; };
+		B7FF27C11DCAA31B0026E776 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		B7FF27C21DCAA31B0026E776 /* libevent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libevent.a; sourceTree = "<group>"; };
+		B7FF27C31DCAA31B0026E776 /* libnio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libnio.a; sourceTree = "<group>"; };
+		B7FF27C41DCAA31B0026E776 /* libnts.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libnts.a; sourceTree = "<group>"; };
+		B7FF27C51DCAA31B0026E776 /* libnvs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libnvs.a; sourceTree = "<group>"; };
+		B7FF27C61DCAA31B0026E776 /* libopenh264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopenh264.a; sourceTree = "<group>"; };
+		B7FF27C71DCAA31B0026E776 /* libopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopus.a; sourceTree = "<group>"; };
+		B7FF27C81DCAA31B0026E776 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		B7FF280B1DCAA4AD0026E776 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B7FF280D1DCAA4BD0026E776 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B7FF280F1DCAA4C60026E776 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B7FF28111DCAA4D70026E776 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B7FF28131DCAA4DE0026E776 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B7FF28151DCAA4F30026E776 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B7FF28171DCAA4F90026E776 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		B7FF28191DCAA5110026E776 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		B7FF281B1DCAA5240026E776 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		B7FF281D1DCAA5300026E776 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B7FF281F1DCAA8520026E776 /* ENSwiftSideMenu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ENSwiftSideMenu.framework; path = "../../../Library/Developer/Xcode/DerivedData/RJSmartDoorSDK-doaykjlpxzqnfrcqyyolqtjqpkil/Build/Products/Debug-iphonesimulator/ENSwiftSideMenu/ENSwiftSideMenu.framework"; sourceTree = "<group>"; };
+		B7FF28211DCAA8570026E776 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/RJSmartDoorSDK-doaykjlpxzqnfrcqyyolqtjqpkil/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		B7FF28231DCAA9420026E776 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		B7FF28251DCAAA0D0026E776 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B7FF28431DCAC8000026E776 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B7FF28451DCAC8BD0026E776 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		D56133024166EF091DB2D82C /* Pods_RJSmartDoorSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJSmartDoorSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -409,21 +582,79 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B82C3413DF95FD0C2E52B2B2 /* Pods_RJSmartDoorSDK.framework in Frameworks */,
-				B77D58041DC846050080E98B /* NIMSDK.framework in Frameworks */,
+				B7FF281E1DCAA5300026E776 /* libz.tbd in Frameworks */,
+				B7FF281C1DCAA5240026E776 /* libsqlite3.0.tbd in Frameworks */,
+				B7FF281A1DCAA5110026E776 /* libstdc++.6.0.9.tbd in Frameworks */,
+				B7FF28181DCAA4F90026E776 /* VideoToolbox.framework in Frameworks */,
+				B7FF28161DCAA4F30026E776 /* AudioToolbox.framework in Frameworks */,
+				B7FF28141DCAA4DE0026E776 /* CoreMedia.framework in Frameworks */,
+				B7FF28121DCAA4D70026E776 /* CoreTelephony.framework in Frameworks */,
+				B7FF28101DCAA4C60026E776 /* AVFoundation.framework in Frameworks */,
+				B7FF280E1DCAA4BD0026E776 /* SystemConfiguration.framework in Frameworks */,
+				B7FF280C1DCAA4AD0026E776 /* MobileCoreServices.framework in Frameworks */,
+				43051ACF827F8AF5AFDBA174 /* Pods_RJSmartDoorSDK.framework in Frameworks */,
+				B7FF28041DCAA31B0026E776 /* libevent.a in Frameworks */,
+				B7FF280A1DCAA31B0026E776 /* libssl.a in Frameworks */,
+				B7FF28021DCAA31B0026E776 /* libaacplus.a in Frameworks */,
+				B7FF28031DCAA31B0026E776 /* libcrypto.a in Frameworks */,
+				B7FF28051DCAA31B0026E776 /* libnio.a in Frameworks */,
+				B7FF28081DCAA31B0026E776 /* libopenh264.a in Frameworks */,
+				B7FF28091DCAA31B0026E776 /* libopus.a in Frameworks */,
+				B7FF28071DCAA31B0026E776 /* libnvs.a in Frameworks */,
+				B7FF28061DCAA31B0026E776 /* libnts.a in Frameworks */,
+				B7FF28011DCAA31B0026E776 /* libNIMSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09AF36E1803E13165231299B /* Pods */ = {
+		304B517BBEEE6B14B5D3D6B4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				81BE290250398497A4A826EC /* Pods-RJSmartDoorSDK.debug.xcconfig */,
-				F66DA6209622B4D0D529CC94 /* Pods-RJSmartDoorSDK.release.xcconfig */,
+				A00609BC25835199596D450A /* Pods-RJSmartDoorSDK.debug.xcconfig */,
+				8F2D147F6D07A0D8DC8C5E2C /* Pods-RJSmartDoorSDK.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A99603E5D28139C7DE4A2856 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7FF28451DCAC8BD0026E776 /* libstdc++.tbd */,
+				B7FF28431DCAC8000026E776 /* Foundation.framework */,
+				B7FF28251DCAAA0D0026E776 /* UIKit.framework */,
+				B7FF28231DCAA9420026E776 /* libz.1.2.5.tbd */,
+				B7FF28211DCAA8570026E776 /* Alamofire.framework */,
+				B7FF281F1DCAA8520026E776 /* ENSwiftSideMenu.framework */,
+				B7FF281D1DCAA5300026E776 /* libz.tbd */,
+				B7FF281B1DCAA5240026E776 /* libsqlite3.0.tbd */,
+				B7FF28191DCAA5110026E776 /* libstdc++.6.0.9.tbd */,
+				B7FF28171DCAA4F90026E776 /* VideoToolbox.framework */,
+				B7FF28151DCAA4F30026E776 /* AudioToolbox.framework */,
+				B7FF28131DCAA4DE0026E776 /* CoreMedia.framework */,
+				B7FF28111DCAA4D70026E776 /* CoreTelephony.framework */,
+				B7FF280F1DCAA4C60026E776 /* AVFoundation.framework */,
+				B7FF280D1DCAA4BD0026E776 /* SystemConfiguration.framework */,
+				B7FF280B1DCAA4AD0026E776 /* MobileCoreServices.framework */,
+				B7FF277C1DCA9F950026E776 /* libz.1.2.8.tbd */,
+				B7FF27601DCA9F430026E776 /* AFNetworking.framework */,
+				B7FF27611DCA9F430026E776 /* Alamofire.framework */,
+				B7FF27621DCA9F430026E776 /* CryptoSwift.framework */,
+				B7FF27631DCA9F430026E776 /* ENSwiftSideMenu.framework */,
+				B7FF27641DCA9F430026E776 /* HappyDNS.framework */,
+				B7FF27651DCA9F430026E776 /* IQKeyboardManagerSwift.framework */,
+				B7FF27661DCA9F430026E776 /* JDStatusBarNotification.framework */,
+				B7FF27671DCA9F430026E776 /* MJRefresh.framework */,
+				B7FF27681DCA9F430026E776 /* Qiniu.framework */,
+				B7FF27691DCA9F430026E776 /* ReachabilitySwift.framework */,
+				B7FF276A1DCA9F430026E776 /* SDWebImage.framework */,
+				B7FF276B1DCA9F430026E776 /* SVProgressHUD.framework */,
+				B7FF276C1DCA9F430026E776 /* SwiftyBeaver.framework */,
+				B7FF276D1DCA9F430026E776 /* SwiftyJSON.framework */,
+				D56133024166EF091DB2D82C /* Pods_RJSmartDoorSDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B70320C11DC6E5EF001639A7 = {
@@ -431,8 +662,8 @@
 			children = (
 				B70320CD1DC6E5EF001639A7 /* RJSmartDoorSDK */,
 				B70320CC1DC6E5EF001639A7 /* Products */,
-				09AF36E1803E13165231299B /* Pods */,
-				C4F3E0E930169F5B439BC30F /* Frameworks */,
+				304B517BBEEE6B14B5D3D6B4 /* Pods */,
+				A99603E5D28139C7DE4A2856 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -447,13 +678,14 @@
 		B70320CD1DC6E5EF001639A7 /* RJSmartDoorSDK */ = {
 			isa = PBXGroup;
 			children = (
+				B7FF277E1DCAA31B0026E776 /* NIMSDK */,
 				B76882741DC88CA90064FB92 /* resources */,
-				B77D58011DC845D70080E98B /* NIMSDK */,
 				B70320D61DC72CBB001639A7 /* ui */,
-				B70321EB1DC72CE4001639A7 /* Main.storyboard */,
+				B70321EB1DC72CE4001639A7 /* RJMain.storyboard */,
 				B70321EC1DC72CE4001639A7 /* MessageInfo.swift */,
 				B70321ED1DC72CE4001639A7 /* AppContant.swift */,
 				B70320CE1DC6E5EF001639A7 /* RJSmartDoorSDK.h */,
+				B76884461DC8F6C20064FB92 /* RJNavigationViewController.swift */,
 				B70320CF1DC6E5EF001639A7 /* Info.plist */,
 			);
 			path = RJSmartDoorSDK;
@@ -1461,20 +1693,141 @@
 			path = "user-setpasswd.imageset";
 			sourceTree = "<group>";
 		};
-		B77D58011DC845D70080E98B /* NIMSDK */ = {
+		B7FF277E1DCAA31B0026E776 /* NIMSDK */ = {
 			isa = PBXGroup;
 			children = (
-				B77D58021DC845D70080E98B /* NIMSDK.framework */,
+				B7FF277F1DCAA31B0026E776 /* ExportHeaders */,
+				B7FF27BE1DCAA31B0026E776 /* libNIMSDK.a */,
+				B7FF27BF1DCAA31B0026E776 /* Libs */,
 			);
 			path = NIMSDK;
 			sourceTree = "<group>";
 		};
-		C4F3E0E930169F5B439BC30F /* Frameworks */ = {
+		B7FF277F1DCAA31B0026E776 /* ExportHeaders */ = {
 			isa = PBXGroup;
 			children = (
-				7C4E98E6A40F9D364491AF8E /* Pods_RJSmartDoorSDK.framework */,
+				B7FF27801DCAA31B0026E776 /* Chatroom */,
+				B7FF27861DCAA31B0026E776 /* MessageObject */,
+				B7FF27951DCAA31B0026E776 /* NIMCustomSystemNotificationSetting.h */,
+				B7FF27961DCAA31B0026E776 /* NIMGlobalDefs.h */,
+				B7FF27971DCAA31B0026E776 /* NIMLoginClient.h */,
+				B7FF27981DCAA31B0026E776 /* NIMMessage.h */,
+				B7FF27991DCAA31B0026E776 /* NIMMessageReceipt.h */,
+				B7FF279A1DCAA31B0026E776 /* NIMMessageSearchOption.h */,
+				B7FF279B1DCAA31B0026E776 /* NIMMessageSetting.h */,
+				B7FF279C1DCAA31B0026E776 /* NIMPushNotificationSetting.h */,
+				B7FF279D1DCAA31B0026E776 /* NIMRecentSession.h */,
+				B7FF279E1DCAA31B0026E776 /* NIMSDK.h */,
+				B7FF279F1DCAA31B0026E776 /* NIMSDKConfig.h */,
+				B7FF27A01DCAA31B0026E776 /* NIMSDKHeaders.h */,
+				B7FF27A11DCAA31B0026E776 /* NIMSession.h */,
+				B7FF27A21DCAA31B0026E776 /* NIMSystemNotification.h */,
+				B7FF27A31DCAA31B0026E776 /* NIMUser.h */,
+				B7FF27A41DCAA31B0026E776 /* Protocol */,
+				B7FF27B01DCAA31B0026E776 /* Team */,
+				B7FF27B51DCAA31B0026E776 /* VAChat */,
 			);
-			name = Frameworks;
+			path = ExportHeaders;
+			sourceTree = "<group>";
+		};
+		B7FF27801DCAA31B0026E776 /* Chatroom */ = {
+			isa = PBXGroup;
+			children = (
+				B7FF27811DCAA31B0026E776 /* NIMChatroom.h */,
+				B7FF27821DCAA31B0026E776 /* NIMChatroomEnterRequest.h */,
+				B7FF27831DCAA31B0026E776 /* NIMChatroomMember.h */,
+				B7FF27841DCAA31B0026E776 /* NIMChatroomMemberRequest.h */,
+				B7FF27851DCAA31B0026E776 /* NIMMessageChatroomExtension.h */,
+			);
+			path = Chatroom;
+			sourceTree = "<group>";
+		};
+		B7FF27861DCAA31B0026E776 /* MessageObject */ = {
+			isa = PBXGroup;
+			children = (
+				B7FF27871DCAA31B0026E776 /* NIMAudioObject.h */,
+				B7FF27881DCAA31B0026E776 /* NIMCustomObject.h */,
+				B7FF27891DCAA31B0026E776 /* NIMFileObject.h */,
+				B7FF278A1DCAA31B0026E776 /* NIMImageObject.h */,
+				B7FF278B1DCAA31B0026E776 /* NIMLocationObject.h */,
+				B7FF278C1DCAA31B0026E776 /* NIMNotificationObject.h */,
+				B7FF278D1DCAA31B0026E776 /* NIMTipObject.h */,
+				B7FF278E1DCAA31B0026E776 /* NIMVideoObject.h */,
+				B7FF278F1DCAA31B0026E776 /* NotificationContent */,
+			);
+			path = MessageObject;
+			sourceTree = "<group>";
+		};
+		B7FF278F1DCAA31B0026E776 /* NotificationContent */ = {
+			isa = PBXGroup;
+			children = (
+				B7FF27901DCAA31B0026E776 /* NIMChatroomNotificationContent.h */,
+				B7FF27911DCAA31B0026E776 /* NIMNetCallNotificationContent.h */,
+				B7FF27921DCAA31B0026E776 /* NIMNotificationContent.h */,
+				B7FF27931DCAA31B0026E776 /* NIMTeamNotificationContent.h */,
+				B7FF27941DCAA31B0026E776 /* NIMUnsupportedNotificationContent.h */,
+			);
+			path = NotificationContent;
+			sourceTree = "<group>";
+		};
+		B7FF27A41DCAA31B0026E776 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B7FF27A51DCAA31B0026E776 /* NIMApnsManagerProtocol.h */,
+				B7FF27A61DCAA31B0026E776 /* NIMChatManagerProtocol.h */,
+				B7FF27A71DCAA31B0026E776 /* NIMChatroomManagerProtocol.h */,
+				B7FF27A81DCAA31B0026E776 /* NIMConversationManagerProtocol.h */,
+				B7FF27A91DCAA31B0026E776 /* NIMLoginManagerProtocol.h */,
+				B7FF27AA1DCAA31B0026E776 /* NIMMediaManagerProtocol.h */,
+				B7FF27AB1DCAA31B0026E776 /* NIMMessageObjectProtocol.h */,
+				B7FF27AC1DCAA31B0026E776 /* NIMResourceManagerProtocol.h */,
+				B7FF27AD1DCAA31B0026E776 /* NIMSystemNotificationManagerProtocol.h */,
+				B7FF27AE1DCAA31B0026E776 /* NIMTeamManagerProtocol.h */,
+				B7FF27AF1DCAA31B0026E776 /* NIMUserManagerProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		B7FF27B01DCAA31B0026E776 /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				B7FF27B11DCAA31B0026E776 /* NIMCreateTeamOption.h */,
+				B7FF27B21DCAA31B0026E776 /* NIMTeam.h */,
+				B7FF27B31DCAA31B0026E776 /* NIMTeamDefs.h */,
+				B7FF27B41DCAA31B0026E776 /* NIMTeamMember.h */,
+			);
+			path = Team;
+			sourceTree = "<group>";
+		};
+		B7FF27B51DCAA31B0026E776 /* VAChat */ = {
+			isa = PBXGroup;
+			children = (
+				B7FF27B61DCAA31B0026E776 /* NIMNetCallDefs.h */,
+				B7FF27B71DCAA31B0026E776 /* NIMNetCallManagerProtocol.h */,
+				B7FF27B81DCAA31B0026E776 /* NIMNetCallMeeting.h */,
+				B7FF27B91DCAA31B0026E776 /* NIMNetCallOption.h */,
+				B7FF27BA1DCAA31B0026E776 /* NIMNetCallRecordingInfo.h */,
+				B7FF27BB1DCAA31B0026E776 /* NIMRTSManagerProtocol.h */,
+				B7FF27BC1DCAA31B0026E776 /* NIMRTSOption.h */,
+				B7FF27BD1DCAA31B0026E776 /* NIMRTSRecordingInfo.h */,
+			);
+			path = VAChat;
+			sourceTree = "<group>";
+		};
+		B7FF27BF1DCAA31B0026E776 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				B7FF27C01DCAA31B0026E776 /* libaacplus.a */,
+				B7FF27C11DCAA31B0026E776 /* libcrypto.a */,
+				B7FF27C21DCAA31B0026E776 /* libevent.a */,
+				B7FF27C31DCAA31B0026E776 /* libnio.a */,
+				B7FF27C41DCAA31B0026E776 /* libnts.a */,
+				B7FF27C51DCAA31B0026E776 /* libnvs.a */,
+				B7FF27C61DCAA31B0026E776 /* libopenh264.a */,
+				B7FF27C71DCAA31B0026E776 /* libopus.a */,
+				B7FF27C81DCAA31B0026E776 /* libssl.a */,
+			);
+			path = Libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1484,7 +1837,63 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7FF27CC1DCAA31B0026E776 /* NIMChatroomMemberRequest.h in Headers */,
+				B7FF27DA1DCAA31B0026E776 /* NIMUnsupportedNotificationContent.h in Headers */,
+				B7FF27E21DCAA31B0026E776 /* NIMPushNotificationSetting.h in Headers */,
+				B7FF27D91DCAA31B0026E776 /* NIMTeamNotificationContent.h in Headers */,
+				B7FF27FA1DCAA31B0026E776 /* NIMNetCallManagerProtocol.h in Headers */,
+				B7FF27CE1DCAA31B0026E776 /* NIMAudioObject.h in Headers */,
+				B7FF27DC1DCAA31B0026E776 /* NIMGlobalDefs.h in Headers */,
+				B7FF27F01DCAA31B0026E776 /* NIMMessageObjectProtocol.h in Headers */,
+				B7FF27E41DCAA31B0026E776 /* NIMSDK.h in Headers */,
+				B7FF27FE1DCAA31B0026E776 /* NIMRTSManagerProtocol.h in Headers */,
+				B7FF27FB1DCAA31B0026E776 /* NIMNetCallMeeting.h in Headers */,
+				B7FF27EB1DCAA31B0026E776 /* NIMChatManagerProtocol.h in Headers */,
+				B7FF27C91DCAA31B0026E776 /* NIMChatroom.h in Headers */,
+				B7FF27CA1DCAA31B0026E776 /* NIMChatroomEnterRequest.h in Headers */,
+				B7FF27D51DCAA31B0026E776 /* NIMVideoObject.h in Headers */,
+				B7FF27E81DCAA31B0026E776 /* NIMSystemNotification.h in Headers */,
+				B7FF27EA1DCAA31B0026E776 /* NIMApnsManagerProtocol.h in Headers */,
+				B7FF27EE1DCAA31B0026E776 /* NIMLoginManagerProtocol.h in Headers */,
+				B7FF27E71DCAA31B0026E776 /* NIMSession.h in Headers */,
+				B7FF27E51DCAA31B0026E776 /* NIMSDKConfig.h in Headers */,
+				B7FF27EF1DCAA31B0026E776 /* NIMMediaManagerProtocol.h in Headers */,
+				B7FF27D11DCAA31B0026E776 /* NIMImageObject.h in Headers */,
+				B7FF27F51DCAA31B0026E776 /* NIMCreateTeamOption.h in Headers */,
+				B7FF27E91DCAA31B0026E776 /* NIMUser.h in Headers */,
+				B7FF27CB1DCAA31B0026E776 /* NIMChatroomMember.h in Headers */,
+				B7FF27D21DCAA31B0026E776 /* NIMLocationObject.h in Headers */,
+				B7FF27D31DCAA31B0026E776 /* NIMNotificationObject.h in Headers */,
+				B7FF27FC1DCAA31B0026E776 /* NIMNetCallOption.h in Headers */,
+				B7FF27ED1DCAA31B0026E776 /* NIMConversationManagerProtocol.h in Headers */,
+				B7FF27F61DCAA31B0026E776 /* NIMTeam.h in Headers */,
+				B7FF27DD1DCAA31B0026E776 /* NIMLoginClient.h in Headers */,
+				B7FF27D41DCAA31B0026E776 /* NIMTipObject.h in Headers */,
+				B7FF27DF1DCAA31B0026E776 /* NIMMessageReceipt.h in Headers */,
+				B7FF27F21DCAA31B0026E776 /* NIMSystemNotificationManagerProtocol.h in Headers */,
+				B7FF28001DCAA31B0026E776 /* NIMRTSRecordingInfo.h in Headers */,
+				B7FF27D61DCAA31B0026E776 /* NIMChatroomNotificationContent.h in Headers */,
+				B7FF27EC1DCAA31B0026E776 /* NIMChatroomManagerProtocol.h in Headers */,
+				B7FF27F71DCAA31B0026E776 /* NIMTeamDefs.h in Headers */,
+				B7FF27F81DCAA31B0026E776 /* NIMTeamMember.h in Headers */,
+				B7FF27D01DCAA31B0026E776 /* NIMFileObject.h in Headers */,
+				B7FF27F41DCAA31B0026E776 /* NIMUserManagerProtocol.h in Headers */,
+				B7FF27CF1DCAA31B0026E776 /* NIMCustomObject.h in Headers */,
+				B7FF27E11DCAA31B0026E776 /* NIMMessageSetting.h in Headers */,
+				B7FF27FF1DCAA31B0026E776 /* NIMRTSOption.h in Headers */,
+				B7FF27DB1DCAA31B0026E776 /* NIMCustomSystemNotificationSetting.h in Headers */,
+				B7FF27F11DCAA31B0026E776 /* NIMResourceManagerProtocol.h in Headers */,
+				B7FF27FD1DCAA31B0026E776 /* NIMNetCallRecordingInfo.h in Headers */,
+				B7FF27D81DCAA31B0026E776 /* NIMNotificationContent.h in Headers */,
+				B7FF27CD1DCAA31B0026E776 /* NIMMessageChatroomExtension.h in Headers */,
+				B7FF27D71DCAA31B0026E776 /* NIMNetCallNotificationContent.h in Headers */,
 				B70320D01DC6E5EF001639A7 /* RJSmartDoorSDK.h in Headers */,
+				B7FF27E61DCAA31B0026E776 /* NIMSDKHeaders.h in Headers */,
+				B7FF27E31DCAA31B0026E776 /* NIMRecentSession.h in Headers */,
+				B7FF27E01DCAA31B0026E776 /* NIMMessageSearchOption.h in Headers */,
+				B7FF27F31DCAA31B0026E776 /* NIMTeamManagerProtocol.h in Headers */,
+				B7FF27DE1DCAA31B0026E776 /* NIMMessage.h in Headers */,
+				B7FF27F91DCAA31B0026E776 /* NIMNetCallDefs.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1495,12 +1904,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B70320D31DC6E5EF001639A7 /* Build configuration list for PBXNativeTarget "RJSmartDoorSDK" */;
 			buildPhases = (
-				3586D3A448BAE47AE17589C4 /* Check Pods Manifest.lock */,
+				7B09F5325FB1C1EFD0B2FC42 /* [CP] Check Pods Manifest.lock */,
 				B70320C61DC6E5EF001639A7 /* Sources */,
 				B70320C71DC6E5EF001639A7 /* Frameworks */,
 				B70320C81DC6E5EF001639A7 /* Headers */,
 				B70320C91DC6E5EF001639A7 /* Resources */,
-				279F4A7DD79A170EDEE4078B /* Copy Pods Resources */,
+				EE96676D07D12AC5FB105D5E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1597,7 +2006,7 @@
 				B76883261DC88CAA0064FB92 /* notice.png in Resources */,
 				B768832E1DC88CAA0064FB92 /* receiver-on.png in Resources */,
 				B76882FE1DC88CA90064FB92 /* ad2.png in Resources */,
-				B70321EE1DC72CE4001639A7 /* Main.storyboard in Resources */,
+				B70321EE1DC72CE4001639A7 /* RJMain.storyboard in Resources */,
 				B768832F1DC88CAA0064FB92 /* refuse.png in Resources */,
 				B76883291DC88CAA0064FB92 /* answer.png in Resources */,
 				B768831D1DC88CAA0064FB92 /* change-community.png in Resources */,
@@ -1630,34 +2039,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		279F4A7DD79A170EDEE4078B /* Copy Pods Resources */ = {
+		7B09F5325FB1C1EFD0B2FC42 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE96676D07D12AC5FB105D5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RJSmartDoorSDK/Pods-RJSmartDoorSDK-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3586D3A448BAE47AE17589C4 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1714,6 +2123,7 @@
 				B70321C41DC72CBB001639A7 /* PushService.swift in Sources */,
 				B70321911DC72CBB001639A7 /* EmptyList.swift in Sources */,
 				B70321731DC72CBB001639A7 /* BaseTable.swift in Sources */,
+				B76884471DC8F6C20064FB92 /* RJNavigationViewController.swift in Sources */,
 				B70321C21DC72CBB001639A7 /* OpenDoorResultService.swift in Sources */,
 				B70321CB1DC72CBB001639A7 /* BindRoomCheckStatusCodeService.swift in Sources */,
 				B70321C01DC72CBB001639A7 /* CheckStatusCodeService.swift in Sources */,
@@ -1890,7 +2300,7 @@
 		};
 		B70320D41DC6E5EF001639A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81BE290250398497A4A826EC /* Pods-RJSmartDoorSDK.debug.xcconfig */;
+			baseConfigurationReference = A00609BC25835199596D450A /* Pods-RJSmartDoorSDK.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1903,21 +2313,65 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/RJSmartDoorSDK/NIMSDK",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/NIMSDK\"",
+				);
 				INFOPLIST_FILE = RJSmartDoorSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RJSmartDoorSDK/NIMSDK",
+					"$(PROJECT_DIR)/RJSmartDoorSDK/NIMSDK/Libs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CryptoSwift\"",
+					"-framework",
+					"\"ENSwiftSideMenu\"",
+					"-framework",
+					"\"HappyDNS\"",
+					"-framework",
+					"\"IQKeyboardManagerSwift\"",
+					"-framework",
+					"\"JDStatusBarNotification\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"Qiniu\"",
+					"-framework",
+					"\"ReachabilitySwift\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"SwiftyBeaver\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Ruijia.RJSmartDoorSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		B70320D51DC6E5EF001639A7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F66DA6209622B4D0D529CC94 /* Pods-RJSmartDoorSDK.release.xcconfig */;
+			baseConfigurationReference = 8F2D147F6D07A0D8DC8C5E2C /* Pods-RJSmartDoorSDK.release.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1926,18 +2380,59 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/RJSmartDoorSDK/NIMSDK",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/NIMSDK\"",
 				);
 				INFOPLIST_FILE = RJSmartDoorSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RJSmartDoorSDK/NIMSDK",
+					"$(PROJECT_DIR)/RJSmartDoorSDK/NIMSDK/Libs",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CryptoSwift\"",
+					"-framework",
+					"\"ENSwiftSideMenu\"",
+					"-framework",
+					"\"HappyDNS\"",
+					"-framework",
+					"\"IQKeyboardManagerSwift\"",
+					"-framework",
+					"\"JDStatusBarNotification\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"Qiniu\"",
+					"-framework",
+					"\"ReachabilitySwift\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"SwiftyBeaver\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Ruijia.RJSmartDoorSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
